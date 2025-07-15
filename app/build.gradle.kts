@@ -36,8 +36,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":SearchableSpinnerView"))
-
+    implementation("com.github.yashraiyani098:SpinnerTestingLibrary:v1.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
